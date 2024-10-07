@@ -1,9 +1,11 @@
-num1 = float(input("Введите первое число: "))
-num2 = float(input("Введите второе число: "))
-operation = input("Выберите операцию (+, -, *, /): ")
-result = 0
-if operation == "+":    result = num1 + num2
-elif operation == "-":    result = num1 - num2
-elif operation == "*":    result = num1 * num2
-elif operation == "/":    result = num1 / num2
-print (num1,num2,operation,"=",result)
+number = input("Введите четырёхзначное число: ")
+
+first_digit = int(number[0])
+second_digit = int(number[1])
+third_digit = int(number[2])
+last_digit = int(number[3])
+
+if first_digit + last_digit == second_digit - third_digit:
+    result = "yes"
+else:
+    result = "no"

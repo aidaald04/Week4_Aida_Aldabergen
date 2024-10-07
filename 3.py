@@ -1,3 +1,8 @@
-age = int(input("Введите ваш возраст: "))
-if age >= 18: print("Access allowed")
-else: print("Access denied")
+a = int(input())
+b = int(input())
+c = int(input())
+
+if b - a == c - b:
+    print("YES")
+else:
+    print("NO")
