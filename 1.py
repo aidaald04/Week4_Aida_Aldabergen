@@ -9,3 +9,4 @@ if first_digit + last_digit == second_digit - third_digit:
     result = "yes"
 else:
     result = "no"
+    
